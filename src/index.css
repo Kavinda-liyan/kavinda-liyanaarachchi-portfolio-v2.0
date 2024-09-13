@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+.skill-bar {
+    line-height: 30px;
+   
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 25px;
+    width: 0;
+    animation: loadSkill 2s ease-out forwards;
+  }
+  
+  @keyframes loadSkill {
+    from {
+      width: 0;
+    }
+    to {
+      width: var(--skill-width); 
+    }
+  }
+  

@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "title":"Higher National Diploma in Information Technology",
+        "eduTitle":"HND",
+        "institute":"Sri Lanka Institute of Advanced Technoligical Education",
+        "year":"2020-2023",
+        "description":"Completed a Higher National Diploma in Information Technology at 'Advanced Technological Institute Dehiwala', gaining comprehensive knowledge in software development and IT-related fields."
+    },
+    {
+        "id":1,
+        "title":"GCE Advanced Level in Sri Lanka",
+        "eduTitle":"GCE A/L",
+        "institute":"St. Peters College Negombo",
+        "year":"2019",
+        "description":"Completed GCE Advanced Level in Sri Lanka in 2019, specializing in the Math stream, achieving two ' C ' passes and one ' S ' pass."
+    }
+
+]

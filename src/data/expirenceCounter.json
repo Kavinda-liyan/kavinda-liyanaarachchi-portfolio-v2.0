@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "year":1,
+        "discription":"Web Development"
+    },
+    {
+        "id":2,
+        "year":4,
+        "discription":"Graphic designing"
+    },
+    {
+        "id":3,
+        "year":3,
+        "discription":"Web Development"
+    }
+
+]

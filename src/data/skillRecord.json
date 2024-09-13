@@ -1,0 +1,168 @@
+[
+    {
+        "id":1,
+        "category":"Language",
+        "icons" : [
+            {
+                "name":"html",
+                "icon":"/src/assets/Images/icons/html.png",
+                "tooltip":"HTML"
+            },
+            {
+                "name":"css",
+                "icon":"/src/assets/Images/icons/css.png",
+                "tooltip":"CSS"
+            }
+            ,
+            {
+                "name":"js",
+                "icon":"/src/assets/Images/icons/js.png",
+                "tooltip":"JavaScript"
+            }
+            ,
+            {
+                "name":"sass",
+                "icon":"/src/assets/Images/icons/sass.png",
+                "tooltip":"SASS"
+            },
+            {
+                "name":"php",
+                "icon":"/src/assets/Images/icons/php.png",
+                "tooltip":"PHP"
+            }
+
+        ]
+            
+    },
+    {
+        "id":2,
+        "category":"Framework/Library and Database",
+        "icons" : [
+            {
+                "name":"reactjs",
+                "icon":"/src/assets/Images/icons/react.png",
+                "tooltip":"Reactjs"
+            },
+            {
+                "name":"bootstrap",
+                "icon":"/src/assets/Images/icons/bootstrap.png",
+                "tooltip":"BootStrap"
+            }
+            ,
+            {
+                "name":"materialui ",
+                "icon":"/src/assets/Images/icons/mui.png",
+                "tooltip":"Material Ui"
+            }
+            ,
+            {
+                "name":"tailwind",
+                "icon":"/src/assets/Images/icons/tailwind.png",
+                "tooltip":"Tailwind CSS"
+            }
+            ,
+            {
+                "name":"nodejs",
+                "icon":"/src/assets/Images/icons/nodejs.png",
+                "tooltip":"NodeJS"
+            }
+            ,
+            {
+                "name":"threejs",
+                "icon":"/src/assets/Images/icons/threejs.png",
+                "tooltip":"ThreeJS"
+            },{
+                "name":"mongodb",
+                "icon":"/src/assets/Images/icons/mongo.png",
+                "tooltip":"MongoDB"
+            },
+            {
+                "name":"mysql",
+                "icon":"/src/assets/Images/icons/mysql.png",
+                "tooltip":"MySQL"
+            }
+
+        ]
+            
+    }
+    ,
+    {
+        "id":3,
+        "category":"Tools and Technologies",
+        "icons" : [
+            {
+                "name":"photoshop",
+                "icon":"/src/assets/Images/icons/ps.png",
+                "tooltip":"Photoshop"
+            },
+            {
+                "name":"illustrator",
+                "icon":"/src/assets/Images/icons/ai.png",
+                "tooltip":"Illustrator"
+            }
+            ,
+            {
+                "name":"premierpro ",
+                "icon":"/src/assets/Images/icons/pr.png",
+                "tooltip":"Premiere Pro"
+            }
+            ,
+            {
+                "name":"aftereffect",
+                "icon":"/src/assets/Images/icons/ae.png",
+                "tooltip":"After Effect"
+            }
+            ,
+            {
+                "name":"audition",
+                "icon":"/src/assets/Images/icons/au.png",
+                "tooltip":"Audition"
+            }
+            ,
+            {
+                "name":"davicireslove",
+                "icon":"/src/assets/Images/icons/dr.png",
+                "tooltip":"Davinci Resolve"
+            },
+            {
+                "name":"filmora",
+                "icon":"/src/assets/Images/icons/filmora.png",
+                "tooltip":"Filmora"
+            }
+            ,{
+                "name":"figma",
+                "icon":"/src/assets/Images/icons/figma.png",
+                "tooltip":"Figma"
+            },
+            {
+                "name":"blender3d",
+                "icon":"/src/assets/Images/icons/blender.png",
+                "tooltip":"Blender3D"
+            },
+            {
+                "name":"git",
+                "icon":"/src/assets/Images/icons/git.png",
+                "tooltip":"Git"
+            },
+            {
+                "name":"visualstudio",
+                "icon":"/src/assets/Images/icons/vs.png",
+                "tooltip":"Visual Studio"
+            },
+            {
+                "name":"vscode",
+                "icon":"/src/assets/Images/icons/vscode.png",
+                "tooltip":"Visual Studio"
+            }
+            ,
+            {
+                "name":"wordpress",
+                "icon":"/src/assets/Images/icons/wp.png",
+                "tooltip":"Adobe Photoshop"
+            }
+
+        ]
+            
+    }
+    
+]

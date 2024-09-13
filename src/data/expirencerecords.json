@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "designation":"Web Developer",
+        "company":"HexlicaDev",
+        "year":"2024 - Present",
+        "color1":"bg-teal-400",
+        "color2":"bg-teal-100",
+        "description":"working as a Web Developer at HexlicaDev, where I specialize in building websites and developing content management systems."
+    },
+    {
+        "id":2,
+        "designation":"UI/UX Engineer (intern)",
+        "company":"I-context (Pvt) Ltd",
+        "year":"2023 - 2024",
+        "color1":"bg-red-400",
+        "color2":"bg-red-100",
+        "description":"working as a Web Developer at HexlicaDev, where I specialize in building websites and developing content management systems."
+    },
+    {
+        "id":3,
+        "designation":"Freelancer",
+        "company":"-",
+        "year":"2023 - Present",
+        "color1":"bg-teal-400",
+        "color2":"bg-teal-100",
+        "description":"I'm a freelance video editor and graphic designer with a passion for creating visually compelling content. Currently, i work as the editor for Freewings Youth magazine"
+    }
+
+]
