@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressCard, faAssistiveListeningSystems, faHome, faProjectDiagram, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard, faAssistiveListeningSystems, faBars, faHome, faProjectDiagram, faUser } from '@fortawesome/free-solid-svg-icons'
 import NavLinks from './NavLinks'
 
 const Navbar = () => {
@@ -24,15 +24,18 @@ const Navbar = () => {
         
         
         <div className=''>
-            <ul className='text-center   text-neutral-200 font-semibold text-xs flex'>
+            <ul className='text-center   text-neutral-200 font-semibold text-xs flex max-md:hidden'>
                 <NavLinks  content={"HOME"}/>
+                <NavLinks  content={"ABOUT ME"}/>
                 <NavLinks  content={"SKILL"}/>
                 <NavLinks  content={"PROJECTS"}/>
                 <NavLinks  content={"CLIENTS"}/>
-                <NavLinks  content={"BLOG"}/>
                 <NavLinks  content={"CONTACT"}/>
                 
             </ul>
+            <div className='p-5 text-slate-100 text-xl hidden max-md:block'>
+                <button><FontAwesomeIcon icon={faBars}/></button>
+            </div>
         </div>
     </div>
 

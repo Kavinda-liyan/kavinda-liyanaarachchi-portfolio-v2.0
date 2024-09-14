@@ -1,9 +1,64 @@
 [
+    
     {
         "id":1,
-        "cover":"/src/assets/Images/Projects/myportfolio.jpg",
-        "title":"Kavinda Liyanaarchchi Portfolio Website",
+        "cover":"/src/assets/Images/Projects/popcorn.jpg",
+        "title":"Popcorn Cinema Website.",
         "category":"Web Development",
-        "links":""
+        
+        "links":[
+            {
+                "link":"https://popcorn.lk/",
+                "icon":"faGlobe"
+            }
+        ]
+        
+    },
+    {
+        "id":2,
+        "cover":"/src/assets/Images/Projects/rokem.jpg",
+        "title":"Rockem Pharmacy Website.",
+        "category":"Web Development",
+        
+        "links":[
+            {
+                "link":"https://www.rokempharmacy.lk/",
+                "icon":"faGlobe"
+            }
+        ]
+        
+    }
+    ,
+    {
+        "id":3,
+        "cover":"/src/assets/Images/Projects/hexlica.jpg",
+        "title":"HexlicaDev Creative Software Agency Website.",
+        "category":"Web Development",
+        
+        "links":[
+            {
+                "link":"https://www.rokempharmacy.lk/",
+                "icon":"faGlobe"
+            }
+        ]
+        
+    },
+    {
+        "id":4,
+        "cover":"/src/assets/Images/Projects/myportfolio.jpg",
+        "title":"Kavinda Liyanaarchchi Portfolio Website.",
+        "category":"Web Development",
+        
+        "links":[
+            {
+                "link":"https://github.com/Kavinda-liyan/kavinda-liyanaarachchi-portfolio-v2.0.git",
+                "icon":"faGithub"
+            },
+            {
+                "link":"https://github.com/Kavinda-liyan/kavinda-liyanaarachchi-portfolio-v2.0.git",
+                "icon":"faGlobe"
+            }
+        ]
+        
     }
 ]

@@ -9,12 +9,10 @@ const Imgcontent = () => {
   return (
     <div className='flex h-screen m-5 justify-center items-center rounded-full '>
         <div className='w-screen h-screen m-2 flex items-center overflow-hidden  relative' >
-            <div className=' rounded-full bg-teal-600 border-2 shadow-lg shadow-black p-10 text-right right-10 bottom-24 h-36 w-36 z-10 absolute flex items-center justify-center opacity-80' >
-            <h1 className='text-6xl z-10 text-slate-100 font-nunito '>{symbol}</h1>
-            </div>
+            
         
-        <div className='h-full p-10'>
-            <img className=' ' src={portfolio}></img>
+        <div className='h-full p-10 max-sm:p-5'>
+            <img className='pl-10 pr-10' src={portfolio}></img>
         </div>
             
         </div>

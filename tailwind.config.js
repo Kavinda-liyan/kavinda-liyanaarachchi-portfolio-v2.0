@@ -37,6 +37,14 @@ export default {
       perspective: {
         '1000': '1000px', // Set perspective for 3D rotation
       },
+      screens:{
+        'max-2xl':{'max':'1920px'},
+        'max-xl':{'max':'1280px'},
+        'max-lg':{'max':'1024px'},
+        'max-md':{'max':'768px'},
+        'max-sm':{'max':'640px'},
+        'max-xs':{'max':'390px'},
+      }
      
     },
   },

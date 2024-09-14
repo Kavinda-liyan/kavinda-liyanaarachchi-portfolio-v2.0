@@ -4,6 +4,7 @@ import Navbar from '../components/Navigation/Navbar'
 import About from '../components/About/About'
 import Skill from '../components/Skills/Skill'
 import Projects from '../components/Projects/projects'
+import Clients from '../Clients/Clients'
 
 
 const Mainpage = () => {
@@ -15,6 +16,7 @@ const Mainpage = () => {
     <About/>
     <Skill/>
     <Projects/>
+    <Clients/>
     
    
     </div>

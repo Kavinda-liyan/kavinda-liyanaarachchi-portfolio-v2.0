@@ -5,17 +5,22 @@ import Experience from "./Experience/Experience";
 import Softskills from "./Softskill/Softskills";
 import Education from "./Education/Education";
 import { Navigate } from "react-router-dom";
+import TabLinks from "../Tabnavigation/TabLinks";
 
 const About = () => {
  
   return (
     <Router>
-        <section className=' w-full h-full float-right  ' > 
+        <section className=' w-full h-full float-right ' > 
         <div className=' gap-10 h-full  '>
-            <Tabnavigation />
+        
+       
             {/* <AboutMain /> */}
             <div className='content'>
+            
+            
             <Routes>
+              
               <Route path="/" element={<AboutMain />}>
                 <Route index element={<Navigate to="experience" replace />}  />
                 <Route path="experience" element={<Experience />} />
