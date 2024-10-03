@@ -17,7 +17,7 @@ const Experience = () => {
               }
           </div>
           <div className='flex text-left justify-center gap-10 p-5 w-full'>
-          <div className='w-full grid grid-cols-2 gap-8 overflow-hidden'>
+          <div className='w-full grid grid-cols-2 max-lg:grid-cols-1 gap-8 overflow-hidden'>
             {
               expirence.map( (record,index)=>{
                 return(

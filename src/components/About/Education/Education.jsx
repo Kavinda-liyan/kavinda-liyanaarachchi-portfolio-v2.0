@@ -7,7 +7,7 @@ const Education = () => {
       <h1 className='text-teal-600 font-ubuntu text-5xl py-5'>Education</h1>
           
           <div className='flex text-left justify-center gap-10 p-5 w-full'>
-          <div className='w-full grid grid-cols-1 gap-8 overflow-hidden'>
+          <div className='w-full grid grid-cols-1 max-lg:grid-cols-1 gap-8 overflow-hidden'>
              {
               EducationRecords.map( (education,index)=>{
                 return(

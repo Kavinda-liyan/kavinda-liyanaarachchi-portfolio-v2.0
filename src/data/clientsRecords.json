@@ -1,0 +1,30 @@
+[
+    {   
+        
+    "id":1,
+    "client":"Popcorn Cinema",
+    "img":"/src/assets/Images/clients/popcorn.png"
+
+    },
+    {   
+        
+    "id":2,
+    "client":"Free Wings Magazine",
+    "img":"/src/assets/Images/clients/freewings.jpg"
+
+    },
+    {   
+        
+    "id":3,
+    "client":"Mr.Camera",
+    "img":"/src/assets/Images/clients/mrcameralogo.png"
+
+    },
+    {   
+        
+    "id":4,
+    "client":"Rokem Pharmacy",
+    "img":"/src/assets/Images/clients/rokem.png"
+
+    }
+]

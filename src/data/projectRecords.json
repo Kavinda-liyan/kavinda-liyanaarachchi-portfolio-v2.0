@@ -60,5 +60,20 @@
             }
         ]
         
+    },
+    {
+        "id":5,
+        "cover":"/src/assets/Images/Projects/mrcamera.png",
+        "title":"Mr.Camera:CCTV Setup and Monitoring Portfolio Website.",
+        "category":"Under Development",
+        
+        "links":[
+            
+            {
+                "link":"https://github.com/Kavinda-liyan/",
+                "icon":"faGlobe"
+            }
+        ]
+        
     }
 ]

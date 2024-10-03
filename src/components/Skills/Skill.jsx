@@ -1,6 +1,6 @@
 import React from 'react';
 import skillrecord from '../../data/skillRecord.json';
-import Tooltip from './Tooltip';
+import Tooltip from '../../Tooltip/Tooltip';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import Aos from 'aos';

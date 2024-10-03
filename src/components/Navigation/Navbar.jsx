@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className='m-1 p-2 flex items-center'>
             
             
-            <h2 className='text-neutral-200 text-xl font-bold font-ubuntu text'>Kavinda Liyanaarachchi</h2>
+            <h2 className='text-neutral-200 text-xl font-light font-nunito text'>Kavinda Liyanaarachchi</h2>
         </div>
         
         
