@@ -13,10 +13,10 @@ useEffect(()=>{
 
   return (
     <>
-    <div className='w-38 h-38 bg-gradient-to-br from-teal-600 to-teal-800 rounded-2xl shadow-md shadow-slate-900 border-2 border-teal-600  transition  duration-200 cursor-pointer hover:animate-pulse' data-aos="zoom-in"
+    <div className='w-38 h-38 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl shadow-sm shadow-slate-500   transition  duration-200 cursor-pointer ' data-aos="zoom-in"
     data-aos-duration="500" data-aos-easing="linear">
       <ScrollTrigger onEnter={()=> setCountOn(true)} onExit={()=>setCountOn(false)}>
-      <div className='text-center p-5 text-teal-300  hover:text-teal-50 flex  flex-col '>
+      <div className='text-center p-5 text-slate-600  hover:text-slate-40 flex  flex-col '>
         <h1 className='text-4xl flex text-center justify-center p-2 '>
           {counterOn && <CountUp start={props.start} end={props.end} duration={2} delay={0}/>}
           <span className='text-3xl font-bold'>+</span>

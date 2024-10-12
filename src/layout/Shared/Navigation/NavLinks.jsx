@@ -7,7 +7,7 @@ const NavLinks = (props) => {
     <>
     <li className=' flex-col mx-6'>
                    
-                    <p className='py-1 font-ubuntu tracking-widest font-light'>{props.content}</p>
+                    <p className='py-1 font-ubuntu tracking-widest font-bold'>{props.content}</p>
                 </li>
     </>
   )

@@ -11,7 +11,7 @@ const Imgcontent = () => {
         <div className='w-screen h-screen m-2 flex items-center overflow-hidden  relative' >
             
         
-        <div className='h-full p-10 max-sm:p-5'>
+        <div className='h-full p-5 max-sm:p-5'>
             <img className='pl-10 pr-10' src={portfolio}></img>
         </div>
             

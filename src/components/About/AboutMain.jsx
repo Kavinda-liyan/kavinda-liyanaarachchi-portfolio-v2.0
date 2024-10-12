@@ -7,20 +7,22 @@ import Experience from './Experience/Experience'
 const AboutMain = () => {
    
   return (
-    <div className='m-10 flex items-center justify-center'>
+    <div className='mt-10 flex items-center justify-center'>
       
     
-        <div className=' p-5 bg-slate-800 shadow-lg rounded-md  h-auto 2xl:w-3/4'>
+        <div className=' p-10 bg-slate-100   h-auto w-full'>
+        <h1 class="text-slate-600 font-ubuntu text-5xl py-5 text-center">About</h1>
             
             {/* <Experience/> */}
-            <div className='h-24 max-md:h-full'>
+            <div className='h-auto max-md:h-full'>
       <div className='mt-0'>
-        <div className='m-5 max-md:m-2'>
-          <ul className='m-5 p-5 max-md:m-2 max-md:p-2 flex text-center justify-center gap-0 font-ubuntu text-slate-100 text-2xl max-md:text-lg'>
+        <div className=' max-md:m-2'>
+          <ul className=' max-md:m-2 max-md:p-2 flex text-center justify-center gap-0 font-ubuntu text-slate-100 text-2xl max-md:text-lg'>
             {/* Passing the "to" prop for routing */}
             <TabLinks subject={"Experience"} to="/experience" />
             <TabLinks subject={"Education"} to="/education" />
             <TabLinks subject={"Soft Skills"} to="/soft-skills" />
+            <TabLinks subject={"Skills"} to="/skills"/>
           </ul>
         </div>
       </div>

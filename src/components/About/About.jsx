@@ -6,6 +6,7 @@ import Softskills from "./Softskill/Softskills";
 import Education from "./Education/Education";
 import { Navigate } from "react-router-dom";
 import TabLinks from "../Tabnavigation/TabLinks";
+import Skill from "./Skills/Skill";
 
 const About = () => {
  
@@ -26,6 +27,8 @@ const About = () => {
                 <Route path="experience" element={<Experience />} />
                 <Route path="education" element={<Education />} /> 
                 <Route path="soft-skills" element={<Softskills />} />
+                <Route path="skills" element={<Skill/>}/>
+                
               </Route>
             </Routes>
           </div>

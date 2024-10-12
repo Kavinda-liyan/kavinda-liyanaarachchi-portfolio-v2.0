@@ -1,23 +1,21 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const TabLinks = (props) => {
+const TabLinks = ({ to, subject }) => {
   return (
-    <><li className='p-2 text-teal-600 hover:text-teal-200 border-b-2 border-teal-600  font-ubuntu w-screen hover:border-teal-200 cursor-pointer hover:bg-slate-800 rounded-tl-md rounded-tr-md 
-     hover:shadow-md hover:shadow-teal-600 transition  duration-500'>
-       <NavLink 
-        to={props.to} 
-        className={({ isActive }) => 
-          isActive ? 'text-teal-100 border-teal-200 shadow-md shadow-teal-600 ' : 'text-teal-600' 
+    <li className=" w-screen font-ubuntu cursor-pointer transition duration-300 rounded-tl-md rounded-tr-md">
+      <NavLink
+        to={to}
+        className={({ isActive }) =>
+          `block p-2  text-center rounded-t-md transition-all duration-300 
+          ${isActive ? 'text-slate-50 border-red-200 shadow-md shadow-slate-100 bg-red-400' : 'text-red-600 hover:text-slate-100'}
+          hover:bg-red-400 hover:border-red-200 hover:shadow-md hover:shadow-slate-200`
         }
       >
-        <div>
-        {props.subject}
-        </div>
-        
+        {subject}
       </NavLink>
-     </li></>
-  )
-}
+    </li>
+  );
+};
 
-export default TabLinks
+export default TabLinks;

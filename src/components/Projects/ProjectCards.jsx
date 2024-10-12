@@ -16,10 +16,10 @@ const ProjectCards = ({ cover, title, category, links }) => {
     Aos.init();
 },[])
   return (
-    <div className='Cardcontainer p-5 group rounded-md overflow-hidden font-nunito cursor-pointer' data-aos="fade-down"
+    <div className='Cardcontainer m-5 p-2 group  overflow-hidden font-nunito cursor-pointer' data-aos="fade-down"
     data-aos-easing="linear"
     data-aos-duration="500">
-      <div className='Card shadow-xl rounded-tl-md rounded-tr-md bg-slate-600 group-hover:bg-slate-400 transition duration-500 relative'>
+      <div className='Card rounded-md overflow-hidden bg-gradient-to-br from-slate-200 to-slate-300 shadow-sm shadow-slate-500 hover:bg-slate-400  transition duration-500 relative'>
         <div className='w-full h-full overflow-hidden'>
           <img 
             className='group-hover:scale-125 transition duration-500 object-cover' 
@@ -28,17 +28,17 @@ const ProjectCards = ({ cover, title, category, links }) => {
           />
         </div>
         <div className='p-2'>
-          <h1 className='text-left text-slate-300 m-2 p-2 text-xl h-24  group-hover:text-slate-800 group-hover:border-slate-800 transition duration-300 font-bold'>
+          <h1 className='text-left text-slate-600 m-2 p-2 text-2xl h-24  group-hover:text-slate-800 group-hover:border-slate-800 transition duration-300 font-bold'>
             {title}
           </h1>
           <div className='flex justify-end text-slate-800'>
-            <p className='rounded-md shadow-md m-2 p-1 w-max h-max bg-gradient-to-br from-teal-300 to-teal-500 text-xs text-right float-end font-bold'>
+            <p className='rounded-md shadow-md m-2 p-2 w-max h-max bg-gradient-to-br from-red-400 to-red-500 text-xs text-right float-end font-bold'>
               {category}
             </p>
             {links.map((linkObj, index) => (
               <a 
                 key={index}
-                className='rounded-md shadow-md m-2 p-1 w-6 h-6 text-md text-right float-end font-bold flex items-center bg-gradient-to-br from-teal-300 to-teal-500 hover:scale-125 hover:shadow-xl transition duration-300' 
+                className='rounded-md shadow-md m-2 p-2  text-md text-right float-end font-bold flex items-center bg-gradient-to-br from-red-400 to-red-500 hover:scale-125 hover:shadow-xl transition duration-300' 
                 href={linkObj.link} 
                 rel="noopener noreferrer" 
                 target='_blank'

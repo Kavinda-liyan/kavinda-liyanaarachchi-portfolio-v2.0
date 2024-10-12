@@ -1,22 +1,25 @@
 import React from 'react'
 import Home from '../components/Home/Home'
-import Navbar from '../components/Navigation/Navbar'
+import Navbar from './Shared/Navigation/Navbar'
 import About from '../components/About/About'
-import Skill from '../components/Skills/Skill'
-import Projects from '../components/Projects/projects'
-import Clients from '../Clients/Clients'
+import Projects from '../components/Projects/Projects'
+import Contact from '../components/Contact/Contact'
+import Footer from './Shared/Footer/Footer'
+
+
 
 
 const Mainpage = () => {
   return (
     <>
-    <div className='overflow-y-hidden bg-gradient-to-r from-slate-800 to-slate-900'>
+    <div className='overflow-y-hidden bg-gradient-to-r from-slate-50 to-slate-100 mx-auto'>
     <Navbar/>
     <Home/>
     <About/>
-    <Skill/>
     <Projects/>
-    <Clients/>
+    <Contact/>
+    <Footer/>
+   
     
    
     </div>

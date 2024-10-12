@@ -160,6 +160,12 @@
                 "icon":"/src/assets/Images/icons/wp.png",
                 "tooltip":"Adobe Photoshop"
             }
+            ,
+            {
+                "name":"vercel",
+                "icon":"/src/assets/Images/icons/vercel.png",
+                "tooltip":"Vercel"
+            }
 
         ]
             

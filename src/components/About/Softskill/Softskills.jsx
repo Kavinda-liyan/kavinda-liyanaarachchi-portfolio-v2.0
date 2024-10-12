@@ -7,7 +7,7 @@ const Softskills = () => {
   
   return (
     <div className='flex text-center justify-center flex-col '>
-       <h1 className='text-teal-600 font-ubuntu text-5xl py-5'>Soft Skills</h1>
+       <h1 className='text-red-400  font-ubuntu text-3xl py-5'>Soft Skills</h1>
           
           <div className='flex text-left justify-center gap-10 p-5 w-full'>
           <div className='w-full grid grid-cols-2 gap-3'>
