@@ -7,12 +7,17 @@ import Education from "./Education/Education";
 import { Navigate } from "react-router-dom";
 import TabLinks from "../Tabnavigation/TabLinks";
 import Skill from "./Skills/Skill";
+import { Element } from "react-scroll";
 
 const About = () => {
  
   return (
+    <Element name="aboutSection">
     <Router>
-        <section className=' w-full h-full float-right ' > 
+      
+
+      
+        <section className=' w-full h-full  ' > 
         <div className=' gap-10 h-full  '>
         
        
@@ -36,7 +41,9 @@ const About = () => {
    
     
   </section>
+  
     </Router>
+    </Element>
     
   )
 }

@@ -6,8 +6,8 @@ import Expirencecounter from "../../../data/expirenceCounter.json"
 const Experience = () => {
   return (
     <div className='flex text-center justify-center flex-col '>
-      <h1 className='text-red-400  font-ubuntu text-3xl py-5'>Expierience</h1>
-          <div className='flex text-center justify-center gap-10 p-5'> 
+      <h1 className='text-red-400  font-ubuntu text-3xl py-5 max-md:text-xl'>Expierience</h1>
+          <div className='flex text-center justify-center gap-10 p-5 max-md:gap-2 max-md:p-2'> 
               {
                 Expirencecounter.map((counter,index)=>{
                   return(
@@ -16,8 +16,8 @@ const Experience = () => {
                 })
               }
           </div>
-          <div className='flex text-left justify-center gap-10 p-5 w-full'>
-          <div className='w-full grid grid-cols-3 max-lg:grid-cols-1 gap-8 overflow-hidden p-5'>
+          <div className='flex text-left justify-center gap-10 p-5 w-full max-md:p-2 max-md:gap-2'>
+          <div className='w-full grid grid-cols-3 max-lg:grid-cols-1 gap-8 overflow-hidden p-5 max-md:gap-2 max-md:p-2'>
             {
               expirence.map( (record,index)=>{
                 return(

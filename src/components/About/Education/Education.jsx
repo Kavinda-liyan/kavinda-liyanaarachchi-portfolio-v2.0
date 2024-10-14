@@ -4,10 +4,10 @@ import EducationRecords from '../../../data/educationRecord.json'
 const Education = () => {
   return (
     <div className='flex text-center justify-center flex-col '>
-      <h1 className='text-red-400 font-ubuntu text-3xl py-5'>Education</h1>
+      <h1 className='text-red-400 font-ubuntu text-3xl py-5 max-md:text-lg'>Education</h1>
           
           <div className='flex text-left justify-center gap-10  w-full'>
-          <div className='w-full grid grid-cols-2 max-lg:grid-cols-1 gap-8 overflow-hidden p-10'>
+          <div className='w-full grid grid-cols-2 max-lg:grid-cols-1 gap-8 overflow-hidden p-10 max-md:p-2 max-md:gap-2'>
              {
               EducationRecords.map( (education,index)=>{
                 return(

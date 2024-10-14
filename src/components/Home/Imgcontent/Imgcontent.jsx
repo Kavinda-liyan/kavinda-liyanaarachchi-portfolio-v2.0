@@ -7,12 +7,12 @@ const Imgcontent = () => {
         loop: 0,  // 0 means infinite loop; set to 1 or more for limited loops
       });
   return (
-    <div className='flex h-screen m-5 justify-center items-center rounded-full '>
-        <div className='w-screen h-screen m-2 flex items-center overflow-hidden  relative' >
+    <div className='flex h-full  justify-center items-center rounded-full '>
+        <div className='w-screen h-full  flex items-center overflow-hidden  relative' >
             
         
-        <div className='h-full p-5 max-sm:p-5'>
-            <img className='pl-10 pr-10' src={portfolio}></img>
+        <div className='h-auto p-5 max-md:p-0 '>
+            <img className='pl-10 pr-10 max-md:p-0 ' src={portfolio} ></img>
         </div>
             
         </div>

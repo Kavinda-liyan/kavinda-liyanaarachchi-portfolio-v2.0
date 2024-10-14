@@ -16,14 +16,14 @@ useEffect(()=>{
     <div className='w-38 h-38 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl shadow-sm shadow-slate-500   transition  duration-200 cursor-pointer ' data-aos="zoom-in"
     data-aos-duration="500" data-aos-easing="linear">
       <ScrollTrigger onEnter={()=> setCountOn(true)} onExit={()=>setCountOn(false)}>
-      <div className='text-center p-5 text-slate-600  hover:text-slate-40 flex  flex-col '>
-        <h1 className='text-4xl flex text-center justify-center p-2 '>
+      <div className='text-center p-5 text-slate-600  hover:text-slate-40 flex  flex-col max-md:p-2 '>
+        <h1 className='text-4xl flex text-center justify-center p-2 max-md:text-2xl'>
           {counterOn && <CountUp start={props.start} end={props.end} duration={2} delay={0}/>}
-          <span className='text-3xl font-bold'>+</span>
+          <span className='text-3xl font-bold max-md:text-xl'>+</span>
             </h1>
             
-            <p className='text-xl'>{props.type}</p>
-        <p className='text-xs p-1 font-bold'>{props.discription}</p>
+            <p className='text-xl max-md:text-base'>{props.type}</p>
+        <p className='text-xs p-1 font-bold max-md:text-xxs max-md:font-semibold'>{props.discription}</p>
       </div>
       </ScrollTrigger>
       

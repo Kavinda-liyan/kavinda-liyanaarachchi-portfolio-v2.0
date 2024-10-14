@@ -16,9 +16,9 @@ const Jobcard = ( props) => {
                         <div className={`w-3 h-3 ${props.Color1} absolute right-0 top-0 rounded-full ` }>
                           <div className={`w-3 h-3 ${props.Color2} absolute right-0 top-0 rounded-full animate-ping`}></div>
                         </div>
-                        <h1 className='text-red-600 text-2xl'>{props.designation}</h1>
-                        <h1 className='text-red-500 text-lg'>{props.company}<span className='px-5 text-sm text-slate-600'>{props.year}</span></h1>
-                        <p className=' text-slate-600'>{props.description}</p>
+                        <h1 className='text-red-600 text-2xl max-md:text-lg'>{props.designation}</h1>
+                        <h1 className='text-red-500 text-lg max-md:text-base'>{props.company}<span className='px-5 text-sm text-slate-600'>{props.year}</span></h1>
+                        <p className=' text-slate-600 max-md:text-xs'>{props.description}</p>
                       </div>
                       
                       

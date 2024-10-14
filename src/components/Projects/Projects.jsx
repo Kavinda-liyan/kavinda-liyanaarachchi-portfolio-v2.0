@@ -3,8 +3,9 @@ import ProjectCards from './ProjectCards'
 import projectRecords from '../../data/projectRecords.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft,faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { Element } from 'react-scroll';
 
-const ITEMS_PER_PAGE = 3;
+const ITEMS_PER_PAGE = 4;
 
 const Projects = () => {
    
@@ -30,12 +31,15 @@ const Projects = () => {
   };
 
   return (
-    <section className='mt-10 w-full h-full float-right'>
-      <div className='text-center justify-center flex-col  p-5'>
+    <Element name='projectsSection'>
+
+   
+    <section className=' w-full h-full'>
+      <div className='text-center justify-center flex-col  px-10 max-md:p-2'>
         <div className='w-full h-full flex flex-col items-center justify-center'>
           <div className='w-auto'>
             <h1 className='text-slate-600 font-ubuntu text-5xl py-5'>Projects</h1>
-            <div className='h-full w-full p-5 grid grid-cols-3 gap-5 overflow-hidden'>
+            <div className='h-full w-full p-5 grid grid-cols-4  overflow-hidden max-md:p-2 max-md:grid-cols-2'>
               {paginatedProjects.map((project, index) => (
                 <ProjectCards
                   key={index}
@@ -71,6 +75,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
+    </Element>
   )
 }
 

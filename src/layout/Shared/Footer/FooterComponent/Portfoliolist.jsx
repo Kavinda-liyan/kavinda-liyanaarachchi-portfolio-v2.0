@@ -3,10 +3,10 @@ import Socialbtn from "../../../../components/Contact/Socialbtn";
 
 
 const Portfoliolist =()=>{
-    var CurrentYear = new Date().getFullYear()
+   
     return(<>
-    <div className='flex flex-col text-center border-r-1 border-slate-600'>
-    <h1>Portfolio</h1>
+    <div className='flex flex-col text-center  border-slate-300 max-md:border-r-0 '>
+    <h1 className="font-ubuntu text-xs font-semibold text-slate-600">Portfolio</h1>
 <div className="flex flex-col justify-center">
     
 
@@ -30,7 +30,7 @@ const Portfoliolist =()=>{
                     <a className="text-slate-500 hover:text-slate-800" href="https://www.linkedin.com/in/kavinda-liyanaarachchi-729b14262/"> Kavinda Liyanaarachchi</a>
                     </p>
 
-                    <p className="font-nunito font-bold text-xs text-slate-500">Copyright &copy;{CurrentYear}</p>
+                    
                     
                     
                     

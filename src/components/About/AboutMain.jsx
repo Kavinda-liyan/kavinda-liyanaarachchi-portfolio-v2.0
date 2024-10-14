@@ -7,10 +7,10 @@ import Experience from './Experience/Experience'
 const AboutMain = () => {
    
   return (
-    <div className='mt-10 flex items-center justify-center'>
+    <div className=' flex items-center justify-center'>
       
     
-        <div className=' p-10 bg-slate-100   h-auto w-full'>
+        <div className=' px-10 bg-slate-100   h-auto w-full max-md:p-2'>
         <h1 class="text-slate-600 font-ubuntu text-5xl py-5 text-center">About</h1>
             
             {/* <Experience/> */}

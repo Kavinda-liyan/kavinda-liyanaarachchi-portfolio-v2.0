@@ -47,3 +47,7 @@
     background: #991b1b;
     cursor: pointer;
 }
+
+.scroll-lock {
+  overflow: hidden;
+}
