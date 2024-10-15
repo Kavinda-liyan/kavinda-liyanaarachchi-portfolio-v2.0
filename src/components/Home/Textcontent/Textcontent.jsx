@@ -1,5 +1,4 @@
 import React from 'react'
-import Animationrounds from './animationRounds'
 import { useTypewriter,Cursor } from 'react-simple-typewriter'
 import Typewritertxt from './Typewritertxt';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
