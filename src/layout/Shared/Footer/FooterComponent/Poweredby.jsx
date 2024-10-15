@@ -1,8 +1,8 @@
 import Powericons from "./Powericons";
-import reacticon from '../../../../assets/Images/icons/react.png'
-import emailicon from '../../../../assets/Images/icons/emailjs.png'
-import tailwindicon from '../../../../assets/Images/icons/tailwind.png'
-import vercelicon from '../../../../assets/Images/icons/vercel.png'
+import reacticon from '../../../../../public/icons/react.png'
+import emailicon from '../../../../../public/icons/emailjs.png'
+import tailwindicon from '../../../../../public/icons/tailwind.png'
+import vercelicon from '../../../../../public/icons/vercel.png'
 import FooterWrapper from "../FooterWrapper";
 
 const Poweredby =()=>{

@@ -5,29 +5,29 @@
         "icons" : [
             {
                 "name":"html",
-                "icon":"/src/assets/Images/icons/html.png",
+                "icon":"/icons/html.png",
                 "tooltip":"HTML"
             },
             {
                 "name":"css",
-                "icon":"/src/assets/Images/icons/css.png",
+                "icon":"/icons/css.png",
                 "tooltip":"CSS"
             }
             ,
             {
                 "name":"js",
-                "icon":"/src/assets/Images/icons/js.png",
+                "icon":"/icons/js.png",
                 "tooltip":"JavaScript"
             }
             ,
             {
                 "name":"sass",
-                "icon":"/src/assets/Images/icons/sass.png",
+                "icon":"/icons/sass.png",
                 "tooltip":"SASS"
             },
             {
                 "name":"php",
-                "icon":"/src/assets/Images/icons/php.png",
+                "icon":"/icons/php.png",
                 "tooltip":"PHP"
             }
 
@@ -40,45 +40,45 @@
         "icons" : [
             {
                 "name":"reactjs",
-                "icon":"/src/assets/Images/icons/react.png",
+                "icon":"/icons/react.png",
                 "tooltip":"Reactjs"
             },
             {
                 "name":"bootstrap",
-                "icon":"/src/assets/Images/icons/bootstrap.png",
+                "icon":"/icons/bootstrap.png",
                 "tooltip":"BootStrap"
             }
             ,
             {
                 "name":"materialui ",
-                "icon":"/src/assets/Images/icons/mui.png",
+                "icon":"/icons/mui.png",
                 "tooltip":"Material Ui"
             }
             ,
             {
                 "name":"tailwind",
-                "icon":"/src/assets/Images/icons/tailwind.png",
+                "icon":"/icons/tailwind.png",
                 "tooltip":"Tailwind CSS"
             }
             ,
             {
                 "name":"nodejs",
-                "icon":"/src/assets/Images/icons/nodejs.png",
+                "icon":"/icons/nodejs.png",
                 "tooltip":"NodeJS"
             }
             ,
             {
                 "name":"threejs",
-                "icon":"/src/assets/Images/icons/threejs.png",
+                "icon":"/icons/threejs.png",
                 "tooltip":"ThreeJS"
             },{
                 "name":"mongodb",
-                "icon":"/src/assets/Images/icons/mongo.png",
+                "icon":"/icons/mongo.png",
                 "tooltip":"MongoDB"
             },
             {
                 "name":"mysql",
-                "icon":"/src/assets/Images/icons/mysql.png",
+                "icon":"/icons/mysql.png",
                 "tooltip":"MySQL"
             }
 
@@ -92,83 +92,83 @@
         "icons" : [
             {
                 "name":"photoshop",
-                "icon":"/src/assets/Images/icons/ps.png",
+                "icon":"/icons/ps.png",
                 "tooltip":"Photoshop"
             },
             {
                 "name":"illustrator",
-                "icon":"/src/assets/Images/icons/ai.png",
+                "icon":"/icons/ai.png",
                 "tooltip":"Illustrator"
             }
             ,
             {
                 "name":"premierpro ",
-                "icon":"/src/assets/Images/icons/pr.png",
+                "icon":"/icons/pr.png",
                 "tooltip":"Premiere Pro"
             }
             ,
             {
                 "name":"aftereffect",
-                "icon":"/src/assets/Images/icons/ae.png",
+                "icon":"/icons/ae.png",
                 "tooltip":"After Effect"
             }
             ,
             {
                 "name":"audition",
-                "icon":"/src/assets/Images/icons/au.png",
+                "icon":"/icons/au.png",
                 "tooltip":"Audition"
             } ,
             {
                 "name":"lightroom",
-                "icon":"/src/assets/Images/icons/lr.png",
+                "icon":"/icons/lr.png",
                 "tooltip":"Light Room"
             }
             ,
             {
                 "name":"davicireslove",
-                "icon":"/src/assets/Images/icons/dr.png",
+                "icon":"/icons/dr.png",
                 "tooltip":"Davinci Resolve"
             },
             {
                 "name":"filmora",
-                "icon":"/src/assets/Images/icons/filmora.png",
+                "icon":"/icons/filmora.png",
                 "tooltip":"Filmora"
             }
             ,{
                 "name":"figma",
-                "icon":"/src/assets/Images/icons/figma.png",
+                "icon":"/icons/figma.png",
                 "tooltip":"Figma"
             },
             {
                 "name":"blender3d",
-                "icon":"/src/assets/Images/icons/blender.png",
+                "icon":"/icons/blender.png",
                 "tooltip":"Blender3D"
             },
             {
                 "name":"git",
-                "icon":"/src/assets/Images/icons/git.png",
+                "icon":"/icons/git.png",
                 "tooltip":"Git"
             },
             {
                 "name":"visualstudio",
-                "icon":"/src/assets/Images/icons/vs.png",
+                "icon":"/icons/vs.png",
                 "tooltip":"Visual Studio"
             },
             {
                 "name":"vscode",
-                "icon":"/src/assets/Images/icons/vscode.png",
+                "icon":"/icons/vscode.png",
                 "tooltip":"Visual Studio"
             }
             ,
             {
                 "name":"wordpress",
-                "icon":"/src/assets/Images/icons/wp.png",
+                "icon":"/icons/wp.png",
                 "tooltip":"Adobe Photoshop"
             }
             ,
             {
                 "name":"vercel",
-                "icon":"/src/assets/Images/icons/vercel.png",
+                "icon":"/icons/vercel.png",
                 "tooltip":"Vercel"
             }
 

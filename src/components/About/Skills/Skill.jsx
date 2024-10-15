@@ -31,7 +31,7 @@ const Skill = () => {
                           hover:border-red-300 hover:shadow-md 
                           hover:bg-red-400 cursor-pointer perspective-1000 hover:rotate-15 transition-transform duration-300 z-0 '
                         >
-                          <img src={require(`${icon.icon}`)} alt={icon.name} className='p-2 w-full group-hover:-rotate-15' />
+                          <img src={icon.icon} alt={icon.name} className='p-2 w-full group-hover:-rotate-15' />
                         </div>
                       </Tooltip>
                     ))}
