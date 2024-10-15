@@ -13,8 +13,8 @@ useEffect(()=>{
 
   return (
     <>
-    <div className='w-38 h-38 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl shadow-sm shadow-slate-500   transition  duration-200 cursor-pointer ' data-aos="zoom-in"
-    data-aos-duration="500" data-aos-easing="linear">
+    <div className='w-38 h-38 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl shadow-sm shadow-slate-500   transition  duration-200 cursor-pointer ' data-aos="fade-down"
+    data-aos-duration="800" data-aos-easing="linear" data-aos-anchor-placement="top-center">
       <ScrollTrigger onEnter={()=> setCountOn(true)} onExit={()=>setCountOn(false)}>
       <div className='text-center p-5 text-slate-600  hover:text-slate-40 flex  flex-col max-md:p-2 '>
         <h1 className='text-4xl flex text-center justify-center p-2 max-md:text-2xl'>

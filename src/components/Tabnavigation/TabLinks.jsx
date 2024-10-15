@@ -1,9 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const TabLinks = ({ to, subject }) => {
+
+  useEffect(()=>{
+    Aos.init();
+},[])
+
   return (
-    <li className=" w-screen font-ubuntu cursor-pointer transition duration-300 rounded-tl-md rounded-tr-md">
+    <li className=" w-screen font-ubuntu cursor-pointer transition duration-300 rounded-tl-md rounded-tr-md" data-aos="fade-in"
+    data-aos-easing="linear"
+    data-aos-duration="1000">
       <NavLink
         to={to}
         className={({ isActive }) =>

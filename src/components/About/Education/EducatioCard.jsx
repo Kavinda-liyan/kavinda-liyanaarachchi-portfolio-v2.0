@@ -7,7 +7,7 @@ const EducatioCard = (props) => {
     <>
      <div className=' bg-gradient-to-r from-slate-200 to-slate-300  rounded-md shadow-sm shadow-slate-500  mx-10 max-md:mx-2' data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="500" >
+                data-aos-duration="800" data-aos-anchor-placement="top-center" >
                     <div className=''>
                       <div className='m-2 border-l-2 p-5 relative '>
                         <div className={`w-auto h-auto bg-yellow-600 absolute right-0 top-0 rounded-sm p-1 m-2 hover:rotate-6 cursor-pointer shadow-md` }>

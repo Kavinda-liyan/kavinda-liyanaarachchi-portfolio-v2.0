@@ -7,7 +7,7 @@ const Footer =()=>{
     var CurrentYear = new Date().getFullYear()
     return(
         <>
-        <section className="m-0 p-0 h-auto w-auto border-t-1 float-right bg-slate-200 shadow-md shadow-slate-500 ">
+        <section className="m-0 p-0 h-auto w-auto border-t-1  bg-slate-200 shadow-md shadow-slate-500 ">
             <div className="m-2 grid grid-cols-3 max-md:grid-cols-1">
                 <Clients/>
                 

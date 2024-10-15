@@ -7,12 +7,10 @@ import Experience from './Experience/Experience'
 const AboutMain = () => {
    
   return (
-    <div className=' flex items-center justify-center'>
-      
     
-        <div className=' px-10 bg-slate-100   h-auto w-full max-md:p-2'>
-        <h1 class="text-slate-600 font-ubuntu text-5xl py-5 text-center">About</h1>
-            
+            <div>
+
+           
             {/* <Experience/> */}
             <div className='h-auto max-md:h-full'>
       <div className='mt-0'>
@@ -29,9 +27,9 @@ const AboutMain = () => {
     </div>
             
             <Outlet /> 
-                
             </div>
-    </div>
+                
+          
     
   )
 }

@@ -8,21 +8,18 @@ import { Navigate } from "react-router-dom";
 import TabLinks from "../Tabnavigation/TabLinks";
 import Skill from "./Skills/Skill";
 import { Element } from "react-scroll";
+import SectionLayoutWrapper from "../../layout/Shared/SectionLayoutWrapper";
 
 const About = () => {
  
   return (
     <Element name="aboutSection">
     <Router>
-      
-
-      
-        <section className=' w-full h-full  ' > 
-        <div className=' gap-10 h-full  '>
+    
         
-       
-            {/* <AboutMain /> */}
-            <div className='content'>
+       <SectionLayoutWrapper Title={"About me"}>
+        {/* <AboutMain /> */}
+        <div className='content'>
             
             
             <Routes>
@@ -37,10 +34,10 @@ const About = () => {
               </Route>
             </Routes>
           </div>
-        </div>
-   
-    
-  </section>
+
+       </SectionLayoutWrapper>
+            
+       
   
     </Router>
     </Element>

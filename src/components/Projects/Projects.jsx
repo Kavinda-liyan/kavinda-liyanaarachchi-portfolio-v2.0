@@ -4,6 +4,7 @@ import projectRecords from '../../data/projectRecords.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft,faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Element } from 'react-scroll';
+import SectionLayoutWrapper from '../../layout/Shared/SectionLayoutWrapper';
 
 const ITEMS_PER_PAGE = 4;
 
@@ -34,12 +35,8 @@ const Projects = () => {
     <Element name='projectsSection'>
 
    
-    <section className=' w-full h-full'>
-      <div className='text-center justify-center flex-col  px-10 max-md:p-2'>
-        <div className='w-full h-full flex flex-col items-center justify-center'>
-          <div className='w-auto'>
-            <h1 className='text-slate-600 font-ubuntu text-5xl py-5'>Projects</h1>
-            <div className='h-full w-full p-5 grid grid-cols-4  overflow-hidden max-md:p-2 max-md:grid-cols-2'>
+    <SectionLayoutWrapper Title={"Project"}>
+    <div className='h-full w-full p-5 grid grid-cols-4  overflow-hidden max-md:p-2 max-md:grid-cols-2'>
               {paginatedProjects.map((project, index) => (
                 <ProjectCards
                   key={index}
@@ -70,11 +67,11 @@ const Projects = () => {
                 <FontAwesomeIcon icon={faArrowRight}/>
               </button>
             </div>
+
+    </SectionLayoutWrapper>
             
-          </div>
-        </div>
-      </div>
-    </section>
+            
+         
     </Element>
   )
 }
