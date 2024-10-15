@@ -1,5 +1,5 @@
 import { Element } from "react-scroll";
-import ConatctForm from "./contactmeform";
+import ConatctForm from "./ContactForm";
 import Social from "./Social";
 import SectionLayoutWrapper from "../../layout/Shared/SectionLayoutWrapper";
 
