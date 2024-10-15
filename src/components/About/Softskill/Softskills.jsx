@@ -1,5 +1,5 @@
 import React from 'react'
-import Skillbar from './skillbar'
+import Skillbar from './Skillbar'
 
 
 
