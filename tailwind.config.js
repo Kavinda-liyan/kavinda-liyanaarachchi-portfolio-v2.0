@@ -29,7 +29,8 @@ export default {
         '1':"1px"
       },
       fontSize:{
-        'xxs':".65rem"
+        'xxs':".5rem",
+        'xxxs':".50rem"
       },
       rotate: {
         '30': '30deg',
