@@ -2,7 +2,7 @@
     
     {
         "id":1,
-        "cover":"/src/assets/Images/Projects/popcorn.jpg",
+        "cover":"/Projects/popcorn.jpg",
         "title":"Popcorn Cinema Website.",
         "category":"Web Development",
         
@@ -16,7 +16,7 @@
     },
     {
         "id":2,
-        "cover":"/src/assets/Images/Projects/rokem.jpg",
+        "cover":"/Projects/rokem.jpg",
         "title":"Rockem Pharmacy Website.",
         "category":"Web Development",
         
@@ -31,7 +31,7 @@
     ,
     {
         "id":3,
-        "cover":"/src/assets/Images/Projects/hexlica.jpg",
+        "cover":"/Projects/hexlica.jpg",
         "title":"HexlicaDev Creative Software Agency Website.",
         "category":"Web Development",
         
@@ -45,7 +45,7 @@
     },
     {
         "id":4,
-        "cover":"/src/assets/Images/Projects/myportfolio.jpg",
+        "cover":"/Projects/myportfolio.jpg",
         "title":"Kavinda Liyanaarchchi Portfolio Website.",
         "category":"Web Development",
         
@@ -63,7 +63,7 @@
     },
     {
         "id":5,
-        "cover":"/src/assets/Images/Projects/mrcamera.png",
+        "cover":"/Projects/mrcamera.png",
         "title":"Mr.Camera:CCTV Setup and Monitoring Portfolio Website.",
         "category":"Under Development",
         
